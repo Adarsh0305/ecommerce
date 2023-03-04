@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sticky .footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.first-head{
+    background-color: yellow;
+}
+.first-head h4{
+    height: 3rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 4rem;
+}
+.left-menu{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.8rem;
+   margin-left: 1rem;
+}
+.left-menu .location-logo{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.left-menu p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.right-menu .nav-list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   list-style: none;
+   margin-right: 2rem;
+   font-size: 1.3rem;
+   color: white;
+   
+   
+   
+}
+.right-menu .nav-list li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.third-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    background-color: whitesmoke;
+}
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.left-side h2{
+    font-size: 4rem;
+}
+.third-menu .open-menu{
+    font-size: 4rem;
+    margin-left: 1rem;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    gap: 3rem;
+}
+ .search {
+    font-size: 3rem;
+    cursor: pointer;
+}
+.love {
+    font-size: 3rem;
+    cursor: pointer;
+}
+.s-cart {
+    font-size: 3rem;
+    cursor: pointer;
+}
+.navbar{
+    position: relative;
+}
+ .c-img{
+    width: 100%;
+    
+}
+.love2{
+    position: absolute;
+    top: 3%;
+    right:5%;
+    font-size: 5rem;
+    background-color: white;
+    padding: 2rem;
+    cursor: pointer;
+    
+    border-radius: 50%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 8rem;
+    gap: 5rem;
+    
+}
+.first-btn{
+    background-color: aquamarine;
+    padding: 1rem 7rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.4rem;
+    gap: 1rem;
+    
+}
+.second-btn{
+    background-color: yellow;
+    padding: 1rem 8rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.4rem;
+    gap: 1rem;
+    
+}
+.footer a{
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+
+.footer .second-btn a{
+    color: black;
+    
+}
+.list{
+    position: absolute;
+    width: 20%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.4);
+    gap: 5rem;
+   transform: translateX(-100%);
+   transition: all 0.3s linear;
+   
+}
+
+.list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.list a{
+    text-decoration: none;
+    font-size:2rem;
+    color: black;
+}
+ .list .close-icon{
+    font-size: 3rem;
+    position: absolute;
+    right: 0.5%;
+    top: 0.5rem;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    border-radius: 0.4rem;
+    z-index: 9999;
+}
+.active{
+    transform: translateX(0%);
+}
+.list:hover{
+    color: orange;
+}
+ .list a:hover{
+    color: orange;
+}
